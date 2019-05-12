@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Software</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" href="views/images/icono.jpg">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/cssFancybox/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+
+	<script src="js/jquery-2.2.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/jquery.dataTables.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+
+		<section class="row">
+
+		<!--=====================================
+		COLUMNA BOTONERA           
+		======================================-->
+
+			<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12" id="col1">
+				
+				<div id="logo" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						
+					<img src="views/images/logotipo.jpg" class="img-responsive" alt="Image">
+
+				</div>
+
+				<!--=====================================
+				BOTONERA MOVIL            
+				======================================-->
+
+				<div id="botoneraMovil" class="navbar-header navbar-inverse">
+
+					<button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#botonera">
+
+						<span class="icon-bar"></span>
+	            		<span class="icon-bar"></span>
+	           			<span class="icon-bar"></span>
+
+					</button>
+				
+				</div>
+
+				<!--====  Fin de BOTONERA MOVIL  ====-->
+
+				<nav id="botonera" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse text-center">
+							
+					<ul class="nav navbar">
+
+						<li><a href="inicio.html">Inicio <span class="glyphicon glyphicon-new-window"></span></a></li>
+						<li><a href="slide.html">Slide <span class="glyphicon glyphicon-new-window"></span></a></li>
+						<li><a href="articulos.html">Artículos <span class="glyphicon glyphicon-new-window"></span></a></li>
+						<li><a href="galeria.html">Imágenes <span class="glyphicon glyphicon-new-window"></span></a></li>
+						<li><a href="videos.html">Videos <span class="glyphicon glyphicon-new-window"></span></a></li>
+						<li><a href="suscriptores.html">Suscriptores <span class="glyphicon glyphicon-new-window"></span></a></li>
+
+					</ul>
+
+				</nav>
+
+			</div>
+
+		<!--====  FIn de COLUMNA BOTONERA  ====-->
+
+		<!--=====================================
+		COLUMNA CONTENIDO        
+		======================================-->
+		
+			<!--=====================================
+			 CABEZOTE             
+			======================================-->
+
+			<div id="cabezote" class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					
+					<ul>
+						<li  style="background: #333">
+							<a href="mensajes.html" style="color: #fff">
+                  			<i class="fa fa-envelope"></i> 
+                  			<span>1</span> 
+                			</a>
+						</li>
+
+						<li  style="background: #333">
+							<a href="suscriptores.html" style="color: #fff">
+                  			<i class="fa fa-bell"></i>  
+                  			<span>1</span>
+                			</a>
+						</li>
+
+					</ul>
+
+				</div>
+
+				<div id="time" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					
+
+					<div class="text-center">Lunes, 12 de Septiembre de 2016</div>
+					<div class="text-center">12:56:00 pm</div>
+
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-right">
+					
+					<img src="views/images/photo.jpg" class="img-circle">
+
+					<p id="member">Juanu  <span class="fa fa-chevron-down"></span>
+						<br>
+						<ol id="admin">
+							<li><a href="perfil.html"><span class="fa fa-user"></span>Editar Perfil</a></li>
+							<li><a href=""><span class="fa fa-file-text"></span>Términos y Condiciones</a></li>
+							<li><a href=""><span class="fa fa-times"></span>Salir</a></li>
+						</ol>
+
+					</p>
+
+				</div>
+
+			</div>
+
+			<!--====  Fin de CABEZOTE  ====-->
+
+			<!--=====================================
+			SLIDE ADMINISTRABLE          
+			======================================-->
+
+			<div id="imgSlide" class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
+			
+			<hr>
+
+			<p><span class="fa fa-arrow-down"></span>  Arrastra aquí tu imagen, tamaño recomendado: 1600px * 600px</p>
+				
+				<ul id="columnasSlide">
+					<li class="bloqueSlide">
+						<span class="fa fa-times"></span>
+						<img src="views/images/slide/slide01.jpg" class="handleImg">
+					</li>
+						
+					<li class="bloqueSlide">
+						<span class="fa fa-times"></span>
+						<img src="views/images/slide/slide02.jpg" class="handleImg">			
+					</li>
+
+					<li class="bloqueSlide">
+						<span class="fa fa-times"></span>
+						<img src="views/images/slide/slide03.jpg" class="handleImg">			
+					</li>
+
+					<li class="bloqueSlide">
+						<span class="fa fa-times"></span>
+						<img src="views/images/slide/slide04.jpg" class="handleImg">
+					</li>
+						
+					<li class="bloqueSlide">
+						<span class="fa fa-times"></span>
+						<img src="views/images/slide/slide01.jpg" class="handleImg">			
+					</li>
+
+					<li class="bloqueSlide">
+						<span class="fa fa-times"></span>
+						<img src="views/images/slide/slide02.jpg" class="handleImg">			
+					</li>
+				</ul>
+
+				<button id="ordenarSlide" class="btn btn-warning pull-right" style="margin:10px 30px">Ordenar Slides</button>
+
+				<button id="guardarSlide" class="btn btn-primary pull-right" style="display:none; margin:10px 30px">Guardar Orden Slides</button>
+
+			</div>
+
+			<!--===============================================-->
+
+			<div id="textoSlide" class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
+			
+			<hr>
+				
+				<ul id="ordenarTextSlide">
+					<li>
+						<span class="fa fa-pencil" style="background:blue"></span>
+						<img src="views/images/slide/slide01.jpg" style="float:left; margin-bottom:10px" width="80%">
+						<h1>Lorem Ipsum</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</li>
+
+					<li>
+						<img src="views/images/slide/slide02.jpg" class="img-thumbnail">
+						<input type="text" class="form-control" placeholder="Título">
+						<textarea row="5" class="form-control" placeholder="Descripción"></textarea>
+						<button class="btn btn-info pull-right" style="margin:10px">Guardar</button>
+					</li>
+
+					<li>
+						<img src="views/images/slide/slide03.jpg" class="img-thumbnail">
+						<input type="text" class="form-control" placeholder="Título">
+						<textarea row="5" class="form-control" placeholder="Descripción"></textarea>
+						<button class="btn btn-info pull-right" style="margin:10px">Guardar</button>
+					</li>
+
+					<li>
+						<span class="fa fa-pencil" style="background:blue"></span>
+						<img src="views/images/slide/slide04.jpg" style="float:left; margin-bottom:10px" width="80%">
+						<h1>Lorem Ipsum</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</li>
+
+					<li>
+						<img src="views/images/slide/slide01.jpg" class="img-thumbnail">
+						<input type="text" class="form-control" placeholder="Título">
+						<textarea row="5" class="form-control" placeholder="Descripción"></textarea>
+						<button class="btn btn-info pull-right" style="margin:10px">Guardar</button>
+					</li>
+
+					<li>
+						<img src="views/images/slide/slide02.jpg" class="img-thumbnail">
+						<input type="text" class="form-control" placeholder="Título">
+						<textarea row="5" class="form-control" placeholder="Descripción"></textarea>
+						<button class="btn btn-info pull-right" style="margin:10px">Guardar</button>
+					</li>
+
+				</ul>
+			</div>
+
+
+
+			<!--===============================================-->
+
+			<div id="slide" class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
+				
+				<hr>
+				
+				<ul>
+			       <li>
+		           	<img src="views/images/slide/slide01.jpg">
+		           	<div class="slideCaption">
+		           		<h3>Lorem Ipsum</h3>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		           	</div>
+		           </li>
+		           
+			       <li>
+		           	<img src="views/images/slide/slide02.jpg"> 	
+		           	<div class="slideCaption">
+		           		<h3>Lorem Ipsum</h3>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		           	</div>
+		           </li>
+		           
+			       <li>
+		           	<img src="views/images/slide/slide03.jpg">
+		           	<div class="slideCaption">
+		           		<h3>Lorem Ipsum</h3>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		           	</div>
+		           </li>
+		           
+			       <li>
+		           	<img src="views/images/slide/slide04.jpg">
+		           	<div class="slideCaption">
+		           		<h3>Lorem Ipsum</h3>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		           	</div>
+		           </li>
+
+	    		</ul>
+
+			    <ol id="indicadores">			
+					<li role-slide = "1"><span class="fa fa-circle"></span></li>
+					<li role-slide = "2"><span class="fa fa-circle"></span></li>
+					<li role-slide = "3"><span class="fa fa-circle"></span></li>
+					<li role-slide = "4"><span class="fa fa-circle"></span></li>
+				</ol>
+
+				<div id="slideIzq"><span class="fa fa-chevron-left"></span></div>
+				<div id="slideDer"><span class="fa fa-chevron-right"></span></div>
+
+			</div>
+
+			<!--====  Fin de SLIDE ADMINISTRABLE  ====-->
+
+		<!--====  Fin de COLUMNA CONTENIDO  ====-->
+
+		</section>
+	
+	</div>
+
+	<script src="js/script.js"></script>
+	
+</body>
+
+</html>
