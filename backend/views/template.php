@@ -22,6 +22,7 @@
 	<script src="views/js/jquery-2.2.0.min.js"></script>
 	<script src="views/js/bootstrap.min.js"></script>
 	<script src="views/js/jquery.fancybox.js"></script>
+        <!--https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js-->
 	<script src="views/js/jquery.dataTables.min.js"></script>
 	<script src="views/js/dataTables.bootstrap.min.js"></script>
 	<script src="views/js/dataTables.responsive.min.js"></script>
