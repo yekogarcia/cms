@@ -3,7 +3,11 @@
   <h1 class="text-center text-info"><b>ARTÍCULOS DE INTERÉS</b></h1>
   <hr>
   <ul>
-    <li class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <?php 
+      $articulos = new Articulos();
+      $articulos->seleccionarArticulosController();
+      ?>
+<!--    <li class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <img src="views/images/articulos/landscape01.jpg" class="img-thumbnail">
       <h1>Lorem Ipsum</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -38,6 +42,6 @@
       <button class="btn btn-default">Leer Más</button>
       </a>
       <hr>
-    </li>
+    </li>-->
   </ul>
 </div>
